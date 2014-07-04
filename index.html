@@ -55,20 +55,11 @@ Author E-MAIL: biuro@Blue-NET.pl
 		<div id="top" class="row">
 			<!-- logo box -->
 			<div class="col-md-6 col-sm-6">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="glyphicon glyphicon-align-justify"></span>
-					<span class="glyphicon glyphicon-align-justify"></span>
-					<span class="glyphicon glyphicon-align-justify"></span>
-				  </button>
-				  <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Logo"></a>
-				</div>			
+				<a class="navbar-brand" href="#"><img class="img-responsive" src="assets/img/logo.png" alt="Logo"></a>
 			</div><!-- ./end logo -->
 			
 			<!-- newsletter box -->
-			<div class="col-md-6 col-sm-6">
+			<div class="col-md-6 col-sm-6 hidden-xs">
 				<div class="newsletter">
 					<form class="form-inline" role="form">
 						<div class="form-group">
@@ -85,6 +76,12 @@ Author E-MAIL: biuro@Blue-NET.pl
 		<nav class="navbar navbar-default" role="navigation">
 		  <div class="container-fluid">
 
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="glyphicon glyphicon-th-list"></span>
+			  </button>
+			</div>		
 		
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="menu">
@@ -148,7 +145,7 @@ Author E-MAIL: biuro@Blue-NET.pl
 			</div>
 			
 			<!-- item -->
-			<div class="col-md-4 col-sm-4">
+			<div class="col-md-4 col-sm-4 space-mobile">
 				<div class="offer">
 					<div class="thumbnail"><img class="img-responsive" src="http://placehold.it/340x180" alt=""></div>
 					<h4><a href="#">Lorem ipsum dolor</a></h4>
@@ -157,7 +154,7 @@ Author E-MAIL: biuro@Blue-NET.pl
 			</div>
 			
 			<!-- item -->
-			<div class="col-md-4 col-sm-4">
+			<div class="col-md-4 col-sm-4 space-mobile">
 				<div class="offer">
 					<div class="thumbnail"><img class="img-responsive" src="http://placehold.it/340x180" alt=""></div>
 					<h4><a href="#">Lorem ipsum dolor</a></h4>
@@ -186,7 +183,7 @@ Author E-MAIL: biuro@Blue-NET.pl
 			</div>
 			
 			<!-- sidebar -->
-			<div class="col-md-4 col-sm-4 sidebar">
+			<div class="col-md-4 col-sm-4 sidebar space-mobile">
 				
 				<div class="sidebar-form">
 					<h4>quick contact</h4>
@@ -222,13 +219,13 @@ Author E-MAIL: biuro@Blue-NET.pl
 					  </div>
 					  <div class="row">
 					  	<!-- form information -->
-						<div class="col-md-6 col-sm-8 col-xs-8">
+						<div class="col-md-6 col-sm-12 col-xs-12">
 							<p class="text-danger">Message not send!</p>
 							<p class="text-success">Message send!</p>
 						</div>
 						
 						<!-- form button -->
-						<div class="col-md-6 col-sm-4 col-xs-4 text-right">
+						<div class="col-md-6 col-sm-12 col-xs-12 space-mobile text-right">
 							<button type="submit" class="btn btn-default">Send a message</button>
 						</div>
 						
@@ -248,19 +245,15 @@ Author E-MAIL: biuro@Blue-NET.pl
 <!-- BEGIN FOOTER -->
 <footer>
 
-	<!-- BEGIN FOOTER -->
-	<!-- END FOOTER -->
-	
-
 	<!-- BEGIN COPYRIGHT -->
 	<div class="container">
 		<section id="copyright">
 			<h6 class="hidden">Copyright</h6>
 			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-7 space-mobile">
+				<div class="col-md-6 col-sm-6 col-xs-12">
 					Copyright &copy; 2014 by LogHouses - wszelkie prawa zastrzeżone
 				</div>
-				<div class="col-md-6 col-sm-6 col-xs-5 text-right">
+				<div class="col-md-6 col-sm-6 col-xs-12 space-mobile text-right">
 					Realizacja:  <a href="http://Blue-NET.pl">Blue-NET.pl</a>
 				</div>
 			</div>
@@ -277,12 +270,12 @@ Author E-MAIL: biuro@Blue-NET.pl
 
 
 <!-- BEGIN CLOUD -->
-<div class="parallax-layer cloud1"></div>
-<div class="parallax-layer cloud2"></div>
-<div class="parallax-layer cloud3"></div>
-<div class="parallax-layer cloud4"></div>
-<div class="parallax-layer cloud5"></div>
-<div class="parallax-layer cloud6"></div>
+<div class="parallax-layer cloud1 hidden-xs"></div>
+<div class="parallax-layer cloud2 hidden-xs hidden-sm"></div>
+<div class="parallax-layer cloud3 hidden-xs"></div>
+<div class="parallax-layer cloud4 hidden-xs"></div>
+<div class="parallax-layer cloud5 hidden-xs"></div>
+<div class="parallax-layer cloud6 hidden-xs"></div>
 <!-- END CLOUD -->
 
 <!-- BEGIN JAVASCRIPTS -->
